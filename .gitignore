@@ -1,1 +1,60 @@
+# WordPress Files
+*.log
+wp-config.php
+.htaccess
+sitemap.xml
+sitemap.xml.gz
+wp-content/cache/*
+wp-content/uploads/*
+wp-content/blogs.dir/*
+wp-content/upgrade/
+
+# Environment specific
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
 .DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+.directory
+*.nib
+obj/
+*.orig
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build
+build/
+dist/
+*.min.js
+*.min.css
+
+# WordPress core files (if accidentally added)
+wp-admin/
+wp-includes/
+wp-content/themes/twenty*/
+wp-content/plugins/akismet/
+wp-content/plugins/hello.php
+
+# Database export
+*.sql
+*.sql.gz
+*.zip
+
+# Ignore this plugin's own backup files if any
+*.bak
+*.tmp
